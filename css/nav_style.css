@@ -1,0 +1,31 @@
+
+.nav-container{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin : 0; /*쓸때 없는 공백 제거*/
+    padding : 0px 40%; /*쓸때 없는 공백 제거*/
+    background-color: darkslategray;
+    list-style-type: none; /*목록 기호 제거*/
+    position: fixed; /*고정*/
+    top: 0; /*상단 위치를 0으로 하여 항상 화면 아래가 내려가도 위에 붙어버림 - 그러면 네비가 제목을 좀 가려버림 ㅎㅎ*/
+    /*header를 통해 거리를 두어서 header가 가리지 않게 됨*/
+}
+
+/*각 목록마다 설정*/
+.nav-item{
+    padding: 15px; /*목록 마다 양쪽 거리*/
+    cursor: pointer; /* 마우스 커서를 poninter 모양으로 설정*/
+}
+
+ /*각 목록마다 안의 a 요소를 선택함*/
+.nav-item a{
+    text-align: center;
+    text-decoration: none;
+    color: white;
+}
+
+/*마우스 올렸을 때 속성 지정*/
+.nav-item:hover{
+    background-color: grey;
+}
