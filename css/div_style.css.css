@@ -1,0 +1,38 @@
+div#self-info{
+    padding-top : 50px;
+    padding-left: 500px;
+    
+}
+
+/* 사진 위치 DIV : width: 400px */
+div#self-info-img{
+    width: 400px;
+    float: left;
+}
+
+/* 내용 DIV : width: 600px */
+div#self-info-comment{
+    width: 700px;
+}
+
+p#self-info-comment-name{
+    font-size:30px; 
+    display: inline-block; 
+    color: green;
+}
+p#self-info-comment-engName{
+    font-size:20px; display: 
+    inline-block;
+}
+
+
+.skill_list {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+}
+
+.list-item {
+    padding: 15px;/*목록 마다 양쪽 거리*/
+    cursor: pointer;/* 마우스 커서를 poninter 모양으로 설정*/
+}
