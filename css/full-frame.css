@@ -3,6 +3,9 @@ header {
     margin-top: 80px; /*제목이 가리지 않도록 다른 컴포넌트와 거리를 둠*/
 }
 
+.game {
+    text-align: center;
+}
 .ect{
     margin-left: 80px;
     text-align: left
